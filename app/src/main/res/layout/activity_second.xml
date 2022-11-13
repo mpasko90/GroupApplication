@@ -5,6 +5,60 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".SecondActivity"
+    android:background="@drawable/background">
+  <TextView
+      android:id="@+id/getInspired"
+      android:layout_width="wrap_content"
+      android:layout_height="wrap_content"
+      android:layout_marginTop="100dp"
+      android:fontFamily="@font/poppins_extrabold"
+      android:padding="10dp"
+      android:text="@string/strInspired"
+      android:textColor="@color/white"
+      android:textSize="24sp"
+      app:layout_constraintEnd_toEndOf="parent"
+      app:layout_constraintHorizontal_bias="0.496"
+      app:layout_constraintStart_toStartOf="parent"
+      app:layout_constraintTop_toTopOf="parent" />
 
+  <ImageView
+      android:id="@+id/ideaImg"
+      android:layout_width="251dp"
+      android:layout_height="381dp"
+      android:contentDescription="@string/strIdea"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/getInspired"
+      app:layout_constraintStart_toStartOf="@+id/getInspired"
+      app:layout_constraintTop_toTopOf="parent"
+      app:layout_constraintVertical_bias="0.434"
+      app:srcCompat="@drawable/idea" />
+
+  <androidx.constraintlayout.widget.ConstraintLayout
+      android:id="@+id/nextBtn1"
+      android:layout_width="298dp"
+      android:layout_height="50dp"
+      android:background="@drawable/next_button"
+      android:elevation="4dp"
+      app:layout_constraintBottom_toBottomOf="parent"
+      app:layout_constraintEnd_toEndOf="@+id/ideaImg"
+      app:layout_constraintHorizontal_bias="0.51"
+      app:layout_constraintStart_toStartOf="@+id/ideaImg"
+      app:layout_constraintTop_toBottomOf="@+id/ideaImg"
+      app:layout_constraintVertical_bias="0.52">
+
+    <TextView
+        android:id="@+id/textNext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/strNext"
+        android:textColor="@color/purple_700"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
   </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

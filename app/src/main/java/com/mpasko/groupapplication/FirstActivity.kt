@@ -10,6 +10,7 @@ class FirstActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_first)
 
+
         val buttonClick = findViewById<ConstraintLayout>(R.id.nextBtn1)
         buttonClick.setOnClickListener {
             val intent = Intent(this, SecondActivity::class.java)

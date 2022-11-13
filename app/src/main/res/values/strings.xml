@@ -2,4 +2,6 @@
     <string name="app_name">Group Application</string>
     <string name="strHello">Poznaj nasz zespół</string>
     <string name="strNext">Dalej</string>
+    <string name="strInspired">Zainspiruj się</string>
+    <string name="strIdea">Get Inspired</string>
 </resources>
