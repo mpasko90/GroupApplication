@@ -13,5 +13,22 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_menu"
+        app:labelVisibilityMode="labeled"
         />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/strMenuHello"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:padding="10dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/poppins_extrabold"
+        android:textSize="24sp"
+
+        />
+
 </androidx.constraintlayout.widget.ConstraintLayout>
