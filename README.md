@@ -1,6 +1,6 @@
 # Aplikacja mobilna
 
-Aplikacja mobilna stworzona na potrzeby projektu zaliczeniowego z przedmiotu: "Programowanie aplikacji mobilnych".
+Aplikacja mobilna stworzona na potrzeby projektu zaliczeniowego z przedmiotu: "Programowanie aplikacji mobilnych" prowdzonego przez mgr inż. Wojciecha Barczyńskiego.
 
 ## Wstęp
 
