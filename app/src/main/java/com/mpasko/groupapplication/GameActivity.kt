@@ -40,8 +40,8 @@ class GameActivity : AppCompatActivity() {
             currentTime = 10 // 10 seconds game
             currentClicks = 0
 
-            tv_time.text = "Time: $currentTime"
-            tv_clicks.text = "Clicks: $currentClicks"
+            tv_time.text = "Czas: $currentTime"
+            tv_clicks.text = "Kliknięcia: $currentClicks"
 
             //change button state
             b_start.isEnabled = false
@@ -54,7 +54,7 @@ class GameActivity : AppCompatActivity() {
         b_click.setOnClickListener {
             //increase clicks and display them
             currentClicks++;
-            tv_clicks.text = "Clicks: $currentClicks"
+            tv_clicks.text = "Kliknięcia: $currentClicks"
         }
 
         //init the timer

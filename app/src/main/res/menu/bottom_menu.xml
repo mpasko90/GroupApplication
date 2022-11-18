@@ -28,6 +28,7 @@
         android:title="@string/strPlay"
         android:id="@+id/play"
         app:showAsAction="withText"
+        android:onClick="runGame"
 
         ></item>
 
