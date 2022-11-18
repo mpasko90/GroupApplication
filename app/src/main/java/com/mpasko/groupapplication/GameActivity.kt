@@ -6,7 +6,7 @@ import android.widget.Button
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 
-class MainActivity : AppCompatActivity() {
+class GameActivity : AppCompatActivity() {
 
     lateinit var tv_time: TextView
     lateinit var tv_clicks: TextView
