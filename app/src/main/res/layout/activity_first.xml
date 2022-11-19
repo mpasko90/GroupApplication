@@ -23,8 +23,8 @@
 
     <TextView
         android:id="@+id/ourTeam"
-        android:layout_width="347dp"
-        android:layout_height="73dp"
+        android:layout_width="369dp"
+        android:layout_height="74dp"
         android:fontFamily="@font/jura"
         android:padding="10dp"
         android:text="@string/strHello"
@@ -33,14 +33,15 @@
         android:textSize="45sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.7" />
+        app:layout_constraintVertical_bias="0.701" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/nextBtn1"
-        android:layout_width="298dp"
-        android:layout_height="50dp"
+        android:layout_width="149dp"
+        android:layout_height="60dp"
         android:background="@drawable/next_button"
         android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -52,12 +53,13 @@
 
         <TextView
             android:id="@+id/textNext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
+            android:layout_width="100dp"
+            android:layout_height="36dp"
             android:fontFamily="@font/jua"
             android:text="@string/strNext"
-            android:textColor="@color/purple_700"
-            android:textSize="18sp"
+            android:textAlignment="center"
+            android:textColor="@color/white"
+            android:textSize="30sp"
             android:textStyle="bold"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
