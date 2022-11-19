@@ -7,33 +7,36 @@
     android:background="@drawable/background"
     tools:context=".FirstActivity" >
 
-    <TextView
-        android:id="@+id/ourTeam"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:fontFamily="@font/jua"
-        android:padding="10dp"
-        android:text="@string/strHello"
-        android:textColor="@color/white"
-        android:textSize="24sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
     <ImageView
         android:id="@+id/teamImg"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="350dp"
+        android:layout_height="350dp"
+        android:layout_marginTop="80dp"
         android:contentDescription="@string/strHello"
-        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintBottom_toTopOf="@+id/ourTeam"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.498"
-        app:srcCompat="@drawable/team" />
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/team2" />
+
+    <TextView
+        android:id="@+id/ourTeam"
+        android:layout_width="340dp"
+        android:layout_height="67dp"
+        android:fontFamily="@font/jura"
+        android:padding="10dp"
+        android:text="@string/strHello"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.563"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/nextBtn1"
@@ -43,15 +46,15 @@
         android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/teamImg"
-        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="@+id/teamImg"
-        app:layout_constraintTop_toBottomOf="@+id/teamImg"
-        app:layout_constraintVertical_bias="0.56">
+        app:layout_constraintTop_toBottomOf="@+id/ourTeam"
+        app:layout_constraintVertical_bias="0.822">
 
         <TextView
             android:id="@+id/textNext"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:fontFamily="@font/jua"
             android:text="@string/strNext"
             android:textColor="@color/purple_700"
             android:textSize="18sp"
@@ -59,8 +62,7 @@
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:fontFamily="@font/jua"/>
+            app:layout_constraintTop_toTopOf="parent" />
     </androidx.constraintlayout.widget.ConstraintLayout>
 
 
