@@ -11,11 +11,11 @@
         android:id="@+id/teamImg"
         android:layout_width="394dp"
         android:layout_height="381dp"
-        android:layout_marginTop="80dp"
+        android:layout_marginTop="40dp"
         android:contentDescription="@string/strHello"
         app:layout_constraintBottom_toTopOf="@+id/ourTeam"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.491"
+        app:layout_constraintHorizontal_bias="0.47"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
@@ -35,8 +35,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.38"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.701" />
+        app:layout_constraintTop_toTopOf="@id/teamImg"
+        app:layout_constraintVertical_bias="0.73" />
 
     <androidx.constraintlayout.widget.ConstraintLayout
         android:id="@+id/nextBtn1"
@@ -46,10 +46,10 @@
         android:elevation="4dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="@+id/teamImg"
-        app:layout_constraintHorizontal_bias="0.489"
+        app:layout_constraintHorizontal_bias="0.502"
         app:layout_constraintStart_toStartOf="@+id/teamImg"
         app:layout_constraintTop_toBottomOf="@+id/ourTeam"
-        app:layout_constraintVertical_bias="0.615">
+        app:layout_constraintVertical_bias="0.632">
 
         <TextView
             android:id="@+id/textNext"
