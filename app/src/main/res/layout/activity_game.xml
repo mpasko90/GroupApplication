@@ -1,11 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="20dp"
     tools:context=".GameActivity"
-    android:background="@drawable/background">
+    android:background="@drawable/blueback">
 
     <Button
         android:id="@+id/b_start"
@@ -13,7 +14,7 @@
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/poppins_extrabold"
+        android:fontFamily="@font/jua"
         android:text="@string/start" />
 
     <Button
@@ -21,9 +22,9 @@
         android:layout_width="229dp"
         android:layout_height="80dp"
         android:layout_centerInParent="true"
-        android:fontFamily="@font/poppins_extrabold"
+        android:fontFamily="@font/jua"
         android:text="@string/kliknij_tutaj"
-        android:textSize="20sp" />
+        android:textSize="20sp"/>
 
     <TextView
         android:id="@+id/tv_time"
@@ -31,7 +32,7 @@
         android:layout_height="140dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:fontFamily="@font/poppins_extrabold"
+        android:fontFamily="@font/jua"
         android:text="@string/czas_10"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
@@ -44,7 +45,7 @@
         android:layout_above="@id/b_click"
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
-        android:fontFamily="@font/poppins_extrabold"
+        android:fontFamily="@font/jua"
         android:text="@string/liczba_klikni_0"
         android:textAlignment="center"
         android:textColor="#FFFFFF"

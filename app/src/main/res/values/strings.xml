@@ -8,7 +8,7 @@
     <string name="strMenuHello">Hello! \n What do you want to do?</string>
     <string name="strHome">Home Page</string>
     <string name="start">Start</string>
-    <string name="kliknij_tutaj">Kliknij tutaj</string>
-    <string name="czas_10">Czas: 10</string>
-    <string name="liczba_klikni_0">Liczba kliknięć: 0</string>
+    <string name="kliknij_tutaj">CLICK HERE</string>
+    <string name="czas_10">Time: 10</string>
+    <string name="liczba_klikni_0">Number of clicks: 0</string>
 </resources>
