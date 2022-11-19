@@ -18,7 +18,7 @@ Grupa: L_III_NW_INF_GK
 
 ## Screenshoty
 
-Placeholder na wklejenie skrinów.
+https://filetransfer.io/data-package/PBENVfdr#link
 
 ## Video
 
