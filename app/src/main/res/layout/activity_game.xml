@@ -24,7 +24,7 @@
         android:layout_centerInParent="true"
         android:fontFamily="@font/jua"
         android:text="@string/kliknij_tutaj"
-        android:textSize="20sp"/>
+        android:textSize="20sp" />
 
     <TextView
         android:id="@+id/tv_time"

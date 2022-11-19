@@ -8,7 +8,39 @@
     android:background="@color/bgcolor"
     >
 
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="272dp"
+        android:layout_height="188dp"
+        android:layout_marginTop="12dp"
+        android:background="@drawable/lewydymek"
+        android:fontFamily="@font/jua"
+        android:gravity="center"
+        android:text="get inspired"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="272dp"
+        android:layout_height="188dp"
+        android:background="@drawable/prawydymek"
+        android:fontFamily="@font/jua"
+        android:gravity="center"
+        android:text="meet our team"
+        android:textColor="@color/black"
+        android:textSize="32sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
     <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottomNavigationView"
         android:layout_width="match_parent"
         android:layout_height="50dp"
         android:background="@color/botbarcolor"
@@ -35,5 +67,22 @@
         android:textSize="24sp"
         android:textColor="@color/white"
         />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="272dp"
+        android:layout_height="188dp"
+        android:background="@drawable/lewydymek"
+        android:fontFamily="@font/jua"
+        android:gravity="center"
+        android:text="have fun!"
+        android:textColor="@color/black"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
