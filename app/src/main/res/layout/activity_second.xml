@@ -6,7 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SecondActivity"
-    android:background="@drawable/White_Background">
+    android:background="@drawable/whiteback">
   <TextView
       android:id="@+id/getInspired"
       android:layout_width="wrap_content"
