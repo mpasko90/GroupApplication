@@ -14,6 +14,8 @@ Studenci WSB we Wrocławiu zaangażowani w projekt:
 * Michał Paśko
 * Sebastian Grodziński
 
+Grupa: L_III_NW_INF_GK
+
 ## Screenshoty
 
 Placeholder na wklejenie skrinów.
