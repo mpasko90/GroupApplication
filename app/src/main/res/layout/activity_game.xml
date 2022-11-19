@@ -14,7 +14,7 @@
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppins_extrabold"
-        android:text="Start" />
+        android:text="@string/start" />
 
     <Button
         android:id="@+id/b_click"
@@ -22,7 +22,7 @@
         android:layout_height="80dp"
         android:layout_centerInParent="true"
         android:fontFamily="@font/poppins_extrabold"
-        android:text="Kliknij tutaj"
+        android:text="@string/kliknij_tutaj"
         android:textSize="20sp" />
 
     <TextView
@@ -32,7 +32,7 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:fontFamily="@font/poppins_extrabold"
-        android:text="Czas: 10"
+        android:text="@string/czas_10"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="60sp" />
@@ -45,7 +45,7 @@
         android:layout_centerHorizontal="true"
         android:layout_marginBottom="20dp"
         android:fontFamily="@font/poppins_extrabold"
-        android:text="Liczba kliknięć: 0"
+        android:text="@string/liczba_klikni_0"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="20sp" />
