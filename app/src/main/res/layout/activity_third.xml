@@ -7,57 +7,66 @@
     tools:context=".ThirdActivity"
     android:background="@drawable/whiteback"
     >
+
     <TextView
         android:id="@+id/play"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="100dp"
-        android:fontFamily="@font/jua"
+        android:layout_width="369dp"
+        android:layout_height="74dp"
+        android:fontFamily="@font/jura"
         android:padding="10dp"
         android:text="@string/strPlay"
-        android:textColor="@color/white"
-        android:textSize="24sp"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="45sp"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.496"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="@+id/playImg"
+        app:layout_constraintVertical_bias="0.73" />
 
     <ImageView
         android:id="@+id/playImg"
-        android:layout_width="251dp"
+        android:layout_width="394dp"
         android:layout_height="381dp"
+        android:layout_marginTop="40dp"
         android:contentDescription="@string/strPlay"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/play"
-        app:layout_constraintStart_toStartOf="@+id/play"
+        app:layout_constraintBottom_toTopOf="@+id/play"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.47"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.434"
-        app:srcCompat="@drawable/play" />
-    <androidx.constraintlayout.widget.ConstraintLayout
-        android:id="@+id/nextBtn1"
-        android:layout_width="298dp"
-        android:layout_height="50dp"
-        android:background="@drawable/next_button"
-        android:elevation="4dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="@+id/playImg"
-        app:layout_constraintHorizontal_bias="0.51"
-        app:layout_constraintStart_toStartOf="@+id/playImg"
-        app:layout_constraintTop_toBottomOf="@+id/playImg"
-        app:layout_constraintVertical_bias="0.52">
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/play2" />
 
-        <TextView
-            android:id="@+id/textNext"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/strNext"
-            android:textColor="@color/purple_700"
-            android:textSize="18sp"
-            android:textStyle="bold"
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/nextBtn1"
+            android:layout_width="149dp"
+            android:layout_height="60dp"
+            android:background="@drawable/next_button"
+            android:elevation="4dp"
             app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            android:fontFamily="@font/jua"/>
-    </androidx.constraintlayout.widget.ConstraintLayout>
+            app:layout_constraintEnd_toEndOf="@+id/playImg"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="@+id/playImg"
+            app:layout_constraintTop_toBottomOf="@+id/play"
+            app:layout_constraintVertical_bias="0.632">
+
+
+            <TextView
+                android:id="@+id/textNext"
+                android:layout_width="100dp"
+                android:layout_height="36dp"
+                android:fontFamily="@font/jua"
+                android:text="@string/strNext"
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="30sp"
+                android:textStyle="bold"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
