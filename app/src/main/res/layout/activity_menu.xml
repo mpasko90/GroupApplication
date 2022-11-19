@@ -4,7 +4,9 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MenuActivity">
+    tools:context=".MenuActivity"
+    android:background="@color/bgcolor"
+    >
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:layout_width="match_parent"
@@ -14,6 +16,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:menu="@menu/bottom_menu"
         app:labelVisibilityMode="labeled"
+        android:background="@color/botbarcolor"
         />
 
     <TextView
@@ -26,7 +29,7 @@
         app:layout_constraintTop_toTopOf="parent"
         android:padding="10dp"
         android:textAlignment="center"
-        android:fontFamily="@font/poppins_extrabold"
+        android:fontFamily="@font/jua"
         android:textSize="24sp"
 
         />

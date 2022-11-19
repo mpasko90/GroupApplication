@@ -1,10 +1,10 @@
 <resources>
     <string name="app_name">Group Application</string>
-    <string name="strHello">Poznaj nas</string>
-    <string name="strNext">Dalej</string>
-    <string name="strInspired">Zainspiruj się</string>
+    <string name="strHello">Meet our team</string>
+    <string name="strNext">Next</string>
+    <string name="strInspired">Get Inspired</string>
     <string name="strIdea">Get Inspired</string>
-    <string name="strPlay">Zagraj</string>
+    <string name="strPlay">Play</string>
     <string name="strMenuHello">Cześć, \n co sprawdzimy najpierw?</string>
     <string name="strHome">Strona główna</string>
 </resources>
