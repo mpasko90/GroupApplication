@@ -9,19 +9,22 @@
         ></item>
 
 
-    <item android:icon="@drawable/ic_team"
+    <item
+        android:icon="@drawable/ic_team"
         android:title="@string/strHello"
         android:id="@+id/team"
         app:showAsAction="withText"
+        android:onClick="meetTeam"
 
-        ></item>
+        />
 
 
-    <item android:icon="@drawable/ic_idea"
+    <item
+        android:icon="@drawable/ic_idea"
         android:title="@string/strInspired"
         android:id="@+id/idea"
         app:showAsAction="withText"
-        ></item>
+        android:onClick="getIdea" />
 
 
     <item android:icon="@drawable/ic_play"

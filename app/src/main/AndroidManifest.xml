@@ -13,11 +13,25 @@
         android:theme="@style/Theme.GroupApplication"
         tools:targetApi="31">
         <activity
+            android:name=".IdeaActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".TeamActivity"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
             android:name=".GameActivity"
             android:exported="false">
-        <meta-data
-            android:name="android.app.lib_name"
-            android:value="" />
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
         </activity>
         <activity
             android:name=".MenuActivity"

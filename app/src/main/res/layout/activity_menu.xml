@@ -10,9 +10,9 @@
 
     <TextView
         android:id="@+id/textView4"
-        android:layout_width="272dp"
-        android:layout_height="188dp"
-        android:layout_marginTop="12dp"
+        android:layout_width="257dp"
+        android:layout_height="162dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/lewydymek"
         android:fontFamily="@font/jua"
         android:gravity="center"
@@ -26,8 +26,8 @@
 
     <TextView
         android:id="@+id/textView3"
-        android:layout_width="272dp"
-        android:layout_height="188dp"
+        android:layout_width="257dp"
+        android:layout_height="151dp"
         android:background="@drawable/prawydymek"
         android:fontFamily="@font/jua"
         android:gravity="center"
@@ -70,8 +70,8 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="272dp"
-        android:layout_height="188dp"
+        android:layout_width="257dp"
+        android:layout_height="162dp"
         android:background="@drawable/lewydymek"
         android:fontFamily="@font/jua"
         android:gravity="center"

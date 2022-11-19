@@ -16,4 +16,12 @@ class MenuActivity : AppCompatActivity() {
         val intent = Intent(this, GameActivity::class.java)
         startActivity(intent)
     }
+    fun meetTeam(item: MenuItem) {
+        val intent = Intent(this, TeamActivity::class.java)
+        startActivity(intent)
+    }
+    fun getIdea(item: MenuItem) {
+        val intent = Intent(this, IdeaActivity::class.java)
+        startActivity(intent)
+    }
 }
