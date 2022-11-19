@@ -24,5 +24,4 @@ https://filetransfer.io/data-package/PBENVfdr#link
 
 Placeholder na link do video.
 
-
-
+## Zalecane urządzenie: Pixel 2 API 31
