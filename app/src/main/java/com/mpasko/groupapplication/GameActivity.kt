@@ -1,5 +1,6 @@
 package com.mpasko.groupapplication
 
+import android.annotation.SuppressLint
 import android.os.Bundle
 import android.os.CountDownTimer
 import android.widget.Button
@@ -14,12 +15,13 @@ class GameActivity : AppCompatActivity() {
     lateinit var b_start: Button
     lateinit var b_click: Button
 
-    var currentTime = 10
+    var currentTime: Int = 10
     var currentClicks = 0
 
     //stworzenie timera
     lateinit var timer: CountDownTimer
 
+    @SuppressLint("SetTextI18n")
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_game)
@@ -52,7 +54,7 @@ class GameActivity : AppCompatActivity() {
 
         b_click.setOnClickListener {
             //zwiększenie liczby kliknięć
-            currentClicks++;
+            currentClicks++
             tv_clicks.text = "Kliknięcia: $currentClicks"
         }
 
