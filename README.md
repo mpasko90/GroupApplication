@@ -4,7 +4,7 @@ Aplikacja mobilna stworzona na potrzeby projektu zaliczeniowego z przedmiotu: "P
 
 ## Wstęp
 
-Bardzo prosta w obsłudze aplikacja mobilna zbudowana w Android Studio z graficznym layoutem stworzonym w Figmie.
+Bardzo prosta w obsłudze aplikacja mobilna zbudowana w Android Studio z graficznym layoutem stworzonym w Figmie. Zawiera kilka podstawowych ekranów i grę typu clicker, w której gracz przez 10 sekund ma za zadanie wykonania jak największej liczby kliknięć.
 
 ## Zespół
 
