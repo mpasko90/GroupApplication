@@ -16,12 +16,16 @@ Studenci WSB we Wrocławiu zaangażowani w projekt:
 
 Grupa: L_III_NW_INF_GK
 
-## Screenshoty
+## Wstępny szkic UI
+
+https://ibb.co/LJdcW7q
+
+## Pliki
 
 https://filetransfer.io/data-package/PBENVfdr#link
 
-## Video
+## UI w Figmie
 
-Placeholder na link do video.
+https://www.figma.com/file/B7xNbT2g6cpx8TNV6rbO1O/Aplikacje-mobilne?node-id=0%3A1&t=yqIFGyr07lhUBqn9-1
 
 ## Zalecane urządzenie: Pixel 2 API 31
